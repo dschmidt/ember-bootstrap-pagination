@@ -1,0 +1,1 @@
+export { default } from 'ember-bootstrap-pagination/components/ember-bootstrap-pagination';

@@ -1,0 +1,21 @@
+<ul class="pagination">
+  <li class="page-item {{disablePrevButton}}" {{action 'updatePagination' pages.first pages.self}}>
+    <a class="page-link" href=''>{{fa-icon 'step-backward'}}</a>
+  </li>
+  <li class="page-item {{disablePrevButton}}" {{action 'updatePagination' pages.prev pages.self}}>
+    <a class="page-link" href=''>{{fa-icon 'backward'}}</a>
+  </li>
+  {{#if previousPage}}
+    <li class="page-item" {{action 'updatePagination' pages.prev pages.self}}><a class="page-link" href=''>{{pages.prev}}</a></li>
+  {{/if}}
+  <li class="page-item disabled" {{action 'updatePagination' pages.self pages.self}}><a class="page-link" href=''><strong>{{pages.self}}</strong></a></li>
+  {{#if nextPage}}
+    <li class="page-item" {{action 'updatePagination' pages.next pages.self}}><a class="page-link" href=''>{{pages.next}}</a></li>
+  {{/if}}
+  <li class="page-item {{disableNextButton}}" {{action 'updatePagination' pages.next pages.self}}>
+    <a class="page-link" href=''>{{fa-icon 'forward'}}</a>
+  </li>
+  <li class="page-item {{disableNextButton}}" {{action 'updatePagination' pages.last pages.self}}>
+    <a class="page-link" href=''>{{fa-icon 'step-forward'}}</a>
+  </li>
+</ul>
