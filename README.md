@@ -30,7 +30,7 @@ These values can come from anywhere you wish.
 
 The only requirement is that they are placed in an object called `pages`.
 
-You will also need an action called `updatePagination` to update the pages.
+You will also need an action called `updatePagination` to receive the requested page data.
 #####EXAMPLE:
 
 **app/controllers/somefile.js**
