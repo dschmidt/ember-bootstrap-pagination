@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-pagination",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember component to render a Bootstrap set of pagination buttons",
   "keywords": [
     "bootstrap",
