@@ -21,6 +21,6 @@ module('Integration | Component | ember-bootstrap-pagination', function(hooks) {
       {{/ember-bootstrap-pagination}}
     `);
 
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    assert.equal(this.element.textContent.trim(), '');
   });
 });

@@ -15,8 +15,8 @@ export default Component.extend({
   nextPage: computed('pages', function() {
     return this.checkEmptyValues(this.get('pages.next'));
   }),
-  disablePrevButton: computed('pageNumber', function() {
-    if(this.get('pageNumber') < 2) {
+  disablePrevButton: computed('pages', function() {
+    if(this.get('pages.self') < 2) {
       return this.get('disabled');
     }
   }),

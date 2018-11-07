@@ -1,13 +1,15 @@
 {
   "name": "ember-bootstrap-pagination",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember component to render a Bootstrap set of pagination buttons",
   "keywords": [
+    "bootstrap",
+    "pagination",
     "ember-addon"
   ],
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Mark O Grady",
   "directories": {
     "doc": "doc",
     "test": "tests"
