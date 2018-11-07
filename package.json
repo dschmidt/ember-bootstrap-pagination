@@ -7,7 +7,7 @@
     "pagination",
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/markogrady1/ember-bootstrap-pagination",
   "license": "MIT",
   "author": "Mark O Grady",
   "directories": {
